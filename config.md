@@ -19,7 +19,7 @@ ignore = ["node_modules/"]
 generate_rss = true
 website_title = "Wandelende Wend"
 website_descr = "Ideas, misljenje, and gedachten"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+website_url   = "https://bdeonovic.github.io/FranklinTemplates.jl/"
 +++
 
 <!--

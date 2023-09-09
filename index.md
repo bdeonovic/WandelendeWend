@@ -1,10 +1,11 @@
-@def title = "Franklin Example"
+@def title = "Wandelende Wend"
 @def tags = ["syntax", "code"]
 
 # How to use Franklin
 
 \tableofcontents <!-- you can use \toc as well -->
 
+<!--
 This section is meant as a refresher if you're new to Franklin.
 Have a look at both how the website renders and the corresponding markdown (`index.md`).
 Modify at will to get a feeling for how things work!
@@ -100,7 +101,7 @@ In a similar vein you can cite references that would be at the bottom of the pag
 
 **Note**: the LaTeX commands you define can also incorporate standard markdown (though not in a math environment) so for instance let's define a silly `\bolditalic` command.
 
-\newcommand{\bolditalic}[1]{_**!#1**_} <!--_ ignore this comment, it helps atom to not get confused by the trailing underscore when highlighting the code but is not necessary.-->
+\newcommand{\bolditalic}[1]{_**!#1**_} 
 
 and use it \bolditalic{here for example}.
 
@@ -185,3 +186,6 @@ Last modified: {{ fill fd_mtime }}.
 This dictionary of variables is accessed locally by pages through `@def varname = value` and globally through the `config.md` page via the same syntax.
 
 There's a few other such functions of the form `{{fname p₁ p₂}}` as well as support for conditional blocks. If you wander through the `src/_html_parts/` folder and its content, you should be able to see those in action.
+
+
+-->
